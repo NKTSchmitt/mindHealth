@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_background_edittext"
+        android:drawableEnd="@drawable/ic_nametag"
+        android:elevation="3dp"
+        android:ems="10"
+        android:fontFamily="@font/open_sans"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="@color/grey"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_background_edittext"
+        android:drawableEnd="@drawable/ic_email"
+        android:elevation="3dp"
+        android:ems="10"
+        android:fontFamily="@font/open_sans"
+        android:hint="someone@email.com"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="@color/grey"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/editText_name"
+        app:layout_constraintTop_toBottomOf="@+id/editText_name"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_background_edittext"
+        android:drawableEnd="@drawable/ic_key"
+        android:elevation="3dp"
+        android:ems="10"
+        android:fontFamily="@font/open_sans"
+        android:hint="Pick a strong Password"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="@color/grey"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/editText_email"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_createaccount"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_background_edittext"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Create Account"
+        android:textSize="17dp"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="198dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082"
+        app:srcCompat="@drawable/ic_mindhealth" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:text="not body also mind"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

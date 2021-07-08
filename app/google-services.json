@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "296147013409",
+    "firebase_url": "https://mindhealth-70521-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mindhealth-70521",
+    "storage_bucket": "mindhealth-70521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296147013409:android:2321a82477ba4da707b860",
+        "android_client_info": {
+          "package_name": "com.nktschmitt.mindhealth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEjv3ZP-MPaWjVlWKTgRopAu9TvTw08Vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
